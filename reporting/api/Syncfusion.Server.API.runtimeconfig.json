@@ -1,13 +1,18 @@
 {
   "runtimeOptions": {
     "tfm": "net5.0",
-    "framework": {
-      "name": "Microsoft.AspNetCore.App",
-      "version": "5.0.0"
-    },
+    "includedFrameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "5.0.17"
+      },
+      {
+        "name": "Microsoft.AspNetCore.App",
+        "version": "5.0.17"
+      }
+    ],
     "configProperties": {
       "System.GC.Server": true,
-      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
     }
   }
